@@ -1,0 +1,40 @@
+.adm-nav-bar{
+    padding: 0;
+}
+
+
+.wrapper{
+    padding: 0 1rem;
+}
+
+.wrapper .code{
+    border: 0;
+    background: #fff;
+    font-size: 1rem;
+    color: #999;
+    padding: 1rem;
+}
+
+.title{
+    font-size: 1.64rem;
+    font-weight: inherit;
+    padding: 0.8rem 0;
+}
+
+.adm-list-item{
+    padding-left: 0;
+}
+
+.adm-list-item-content-main{
+    padding: 1.4rem 0;
+}
+
+.adm-form-item + .adm-form-item{
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.adm-button.adm-button-large{
+    background: linear-gradient(90deg,#fe4f4f,#fc6627);
+    --border-color: none;
+}
+

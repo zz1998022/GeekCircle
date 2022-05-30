@@ -1,0 +1,100 @@
+.adm-list-item-content-main {
+    padding: 1.4rem 1rem;
+}
+
+.list{
+    padding-top: 2rem;
+    background-color: #f8f8f8;
+}
+
+.list_img{
+    display: block;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 5rem;
+    object-fit: cover;
+}
+
+.popup_item{
+    justify-content: center;
+}
+
+.adm-text-area{
+    width: auto;
+    margin: 0.5rem;
+    box-sizing: border-box;
+}
+
+.adm-text-area-element{
+    height: 5rem;
+    padding: 0.6rem;
+}
+.adm-text-area-count{
+    padding: 0.6rem;
+}
+
+.name_input{
+    background: #f7f8fa;
+    width: auto;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    border-radius: 0.41333rem;
+}
+
+.adm-input-element{
+    height: 3rem;
+    padding: 0.6rem;
+}
+
+.submit_button{
+    color: #fc6627;
+    padding: 0 0.8rem;
+    font-size: 1rem;
+}
+
+.popup_item{
+    text-align: center;
+}
+
+.file_input{
+    position: relative;
+    display: inline-block;
+    padding: 0 8.6rem;
+    overflow: hidden;
+    color: #333333;
+    text-decoration: none;
+    text-indent: 0;
+    line-height: 2rem;
+}
+
+
+.file_input input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.file_input input#file-upload-button{
+    width: 100%;
+    height: 100%;
+}
+
+.login_out{
+    position: absolute;
+    left: 0;
+    bottom: 1.8rem;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fc6627;
+}
+
+.user_links a{
+    color: #333333;
+    text-decoration: none;
+}

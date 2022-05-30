@@ -1,0 +1,35 @@
+.articles{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    max-height: 52.5rem;
+    padding: 2.9rem 0 0 0;
+}
+
+.info_box{
+    margin-top: 0.2rem;
+}
+
+.collection_item h3{
+    font-weight: 400;
+    line-height: 1rem;
+    font-size: 1rem;
+    margin: 0 0 0.76667rem 0;
+}
+
+.collection_item .info_box{
+    color: #999;
+    line-height: .88667rem;
+    position: relative;
+    font-size: .72rem;
+}
+
+.collection_item .info_box span{
+    padding-right: 0.56667rem;
+}
+
+.bottom{
+    position: fixed;
+    bottom: 0;
+}

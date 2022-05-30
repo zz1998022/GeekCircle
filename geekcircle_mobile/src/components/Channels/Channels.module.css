@@ -1,0 +1,70 @@
+.channel{
+    padding: 0.76667rem 0;
+}
+
+.my_channel_tit{
+    font-size: 1.1rem;
+    line-height: 1.58667rem;
+    padding: 0 0.26rem;
+}
+.my_channel_tit span{
+    font-size: .56667rem;
+    color: #999;
+    margin: 0 1rem
+}
+
+.my_channel_tit button{
+    float: right;
+    line-height: 1;
+    padding: 0 0.17333rem;
+    height: 1.58667rem;
+    border-radius: 2rem;
+    border: 1px solid #fc6627;
+    background-color: #fff;
+}
+
+.my_channel_tit button span{
+    color: #fc6627;
+}
+
+.my_channel_list{
+    padding: 0 0.26rem;
+}
+
+.my_channel_item{
+    display: inline-block;
+    min-width: 5rem;
+    margin-right: 0.62rem;
+    margin-top: 0.87333rem;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.my_channel_item span{
+    display: block;
+    padding: 0 0.81333rem;
+    font-size: 0.87333rem;
+    color: #3a3948;
+    background: #f7f8fa;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+    border-radius: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.my_channel_item .active{
+    color: #fc6627;
+}
+
+.tt_icon{
+    position: absolute;
+    top: -0.10667rem;
+    right: -0.1rem;
+    font-size: .4rem;
+}
+
+.is_edit{
+    display: none;
+}

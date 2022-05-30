@@ -1,0 +1,88 @@
+.home{
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.collection_item .w33 {
+    width: 32%;
+    height: 6rem;
+    border-radius: 0.30667rem;
+    overflow: hidden;
+}
+
+.van-image {
+    position: relative;
+    display: inline-block;
+    margin: 0 0.1rem;
+}
+
+.van-image img{
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.tab{
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.adm-tabs-tab-list{
+    width: 19rem;
+    height: 3rem;
+}
+
+.adm-tabs-header-mask-right{
+    width: 14rem;
+}
+
+.tab .adm-tabs-tab-line{
+    color: #ea6f3c;
+    background-color: #ea6f3c;
+    width: 35px;
+    padding: 1px;
+    transform: translate3d(19.5px, 0px, 0px);
+}
+
+.adm-tabs-tab{
+    color: #9ea1ad;
+}
+
+.adm-tabs-tab-active{
+    color: #333333;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.adm-tabs-tab-active div{
+    color: #333333;
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.top_features{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 0.69rem;
+    border-bottom: 1px solid #eeeeee;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.top_features .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0 0.4rem;
+}
+
+.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f7f8fb;
+}

@@ -1,0 +1,107 @@
+.search_right{
+    position: absolute;
+    top: 0.7rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 0.72667rem;
+    font-size: 0.97333rem;
+    cursor: pointer;
+}
+
+.search_icon{
+    width: 1rem;
+}
+
+.van_search_icon{
+    display: block;
+    font-size: 1.72667rem;
+    line-height: 0.4rem;
+}
+
+.suggest_box{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+.suggest_display{
+    display: none;
+}
+.search_sug_icon{
+    display: inline-block;
+    margin-right: 0.50667rem;
+    height: 0.64rem;
+    font-size: 2.02667rem;
+    line-height: 1.24rem;
+}
+
+.search_sug_cell{
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.766667rem 0.83333rem;
+    color: #999;
+    overflow: hidden;
+    font-size: 0.97333rem;
+    line-height: 0;
+    background-color: #fff;
+    border-bottom: 0.1rem solid #f2f3f5;
+}
+
+.history_box{
+    padding: 0 0.83333rem;
+}
+
+.history_box .head{
+    line-height: 2rem;
+    color: #999;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.history_box .head i {
+    float: right;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.12667rem;
+}
+
+.history_content{
+    position: relative;
+}
+
+.history_item{
+    padding: 0.5rem 0;
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    color: #323233;
+    font-size: 0.97333rem;
+    line-height: 1.64rem;
+    background-color: #fff;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.history_item a{
+    color: #333333;
+    text-decoration: none;
+}
+
+.history_content .history_item i{
+    position: absolute;
+    right: 0;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 0.92667rem;
+    color: #999;
+    z-index: 9;
+}
+
+
